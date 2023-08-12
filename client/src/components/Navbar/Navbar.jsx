@@ -37,9 +37,9 @@ const Navbar = ({ user, setUser, floating }) => {
 	return (
 		<Root className={classes.root} floating={floating?.toString()}>
 			<AppBar className={`${classes.appBarLight} ${mode === 'dark' ? classes.appBarDark : classes.appBarLight}`}>
-				<Link to="/" className={classes.brandContainer}>
-					 <img className={classes.logo} src={icon} alt="memopixel" />
-					
+				<Link style={{ textDecoration: 'none' }} to="/" className={classes.brandContainer}>
+					 <img className={classes.logo} src={icon} alt="memo pixelpixel" />
+					 <h1 style={{ marginLeft: '20px', fontFamily: 'Broadfont,Arial, sans-serif', color: 'white' }}>MemoPixel</h1>
 
 				</Link>
 				<Toolbar className={classes.toolbar}>
