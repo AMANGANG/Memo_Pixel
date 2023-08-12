@@ -1,7 +1,7 @@
 {
-	"short_name": "memo pixelries",
-	"name": "memo pixelries",
-	"description": "A memo pixel is a website to store pictures. Inspired by Your Name",
+	"short_name": "Memo Pixel",
+	"name": "Memo Pixel",
+	"description": "A Memo Pixel is a website to store pictures. Inspired by Your Name",
 	"icons": [
 		{
 			"src": "logo.png",
